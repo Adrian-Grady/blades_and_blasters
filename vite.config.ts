@@ -172,7 +172,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
   // GitHub Pages: Set GITHUB_PAGES_BASE env var if deploying to a subdirectory
-  // Example: GITHUB_PAGES_BASE=/blades-and-blasters/ for github.com/username/blades-and-blasters
+  // Example: GITHUB_PAGES_BASE=/blades_and_blasters/ for github.com/username/blades_and_blasters
   server: {
     port: 3000,
     strictPort: false, // Will find next available port if 3000 is busy
