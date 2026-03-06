@@ -51,6 +51,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
+        env:
+          GITHUB_PAGES_BASE: /blades_and_blasters/
         run: pnpm build
 
       - name: Setup Pages
